@@ -17,7 +17,7 @@ int process_count = 0;
 int percent = 0;
 //////////////////////////////
 
-int run() {
+void run() {
     process_count = percent / 5;
     statusbar = "";
     spaces = "";
